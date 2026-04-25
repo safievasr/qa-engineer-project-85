@@ -264,14 +264,7 @@
   test-data: |
     Название задачи = "rect_area"
     Язык программирования = "JS"
-    Код = "const _ = require("lodash");
-           const R = require("rambda"); 
-           
-           const solution = (width, length) => { 
-               return width * length; 
-           }; 
-           
-           module.exports = solution;"
+    Код = "const _ = require("lodash"); const R = require("rambda"); const solution = (width, length) => { return width * length;};module.exports = solution;"
   steps:
     - В редакторе кода пишем корректное решение задачи
     - Нажимаем кнопку «Запустить»
@@ -287,13 +280,7 @@
   test-data: |
     Название задачи = "rect_area"
     Язык программирования = "JS"
-    Код = "const _ = require("lodash");
-           const R = require("rambda"); 
-           
-           const solution = (width, length) => {  
-           }; 
-           
-           module.exports = solution;"
+    Код = "const _ = require("lodash"); const R = require("rambda"); const solution = (width, length) => {};module.exports = solution;"
   steps:
     - В редакторе кода пишем некорректное решение задачи
     - Нажимаем кнопку «Запустить»
